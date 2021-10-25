@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.App {
+  text-align: center;
+  font-size: 16px;
+}
+
+.title, .button a {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.black {
+  color: black;
+}
+
+.body {
+  margin-top: 100px;
+}
+
+.list-wrapper ul {
+  list-style: disc;
+  padding-left: 0;
+}
+
+.list-wrapper {
+  text-align: left;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.button-wrapper-left {
+  text-align: left;
+  position: fixed;
+  margin-left: 10%;
+}
+
+body {
+  background-image: url("./Resources/sw-background.jpg");
+}
+
+.list {
+  background-color: lightgray;
+  padding: 30px;
+  margin: auto;
+  max-width: 500px;
+  border-radius: 12px;
+  margin-bottom: 50px;
+}
